@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		975443C61D2DE29C0021B98A /* NSObject+THRuntimeEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 975443BF1D2DE29C0021B98A /* NSObject+THRuntimeEx.m */; };
+		975443C71D2DE29C0021B98A /* NSString+THEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 975443C11D2DE29C0021B98A /* NSString+THEx.m */; };
+		975443C81D2DE29C0021B98A /* UITableViewCell+THEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 975443C31D2DE29C0021B98A /* UITableViewCell+THEx.m */; };
+		975443C91D2DE29C0021B98A /* UIView+THEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 975443C51D2DE29C0021B98A /* UIView+THEx.m */; };
 		97C3AD4B1D2D35D00010D724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C3AD4A1D2D35D00010D724 /* main.m */; };
 		97C3AD4E1D2D35D00010D724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C3AD4D1D2D35D00010D724 /* AppDelegate.m */; };
 		97C3AD511D2D35D00010D724 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C3AD501D2D35D00010D724 /* ViewController.m */; };
 		97C3AD541D2D35D00010D724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C3AD521D2D35D00010D724 /* Main.storyboard */; };
 		97C3AD561D2D35D00010D724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C3AD551D2D35D00010D724 /* Assets.xcassets */; };
 		97C3AD591D2D35D00010D724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C3AD571D2D35D00010D724 /* LaunchScreen.storyboard */; };
-		97C3AD651D2D36420010D724 /* NSObject+THRuntimeEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C3AD621D2D36420010D724 /* NSObject+THRuntimeEx.m */; };
-		97C3AD661D2D36420010D724 /* UIView+THEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C3AD641D2D36420010D724 /* UIView+THEx.m */; };
-		97C3AD691D2D36A80010D724 /* NSString+THEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C3AD681D2D36A80010D724 /* NSString+THEx.m */; };
 		97C3AD6C1D2D3AA20010D724 /* THDemoView_auto.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C3AD6B1D2D3AA20010D724 /* THDemoView_auto.m */; };
-		97C3AD6F1D2D424B0010D724 /* UITableViewCell+THEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C3AD6E1D2D424B0010D724 /* UITableViewCell+THEx.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		975443BE1D2DE29C0021B98A /* NSObject+THRuntimeEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+THRuntimeEx.h"; sourceTree = "<group>"; };
+		975443BF1D2DE29C0021B98A /* NSObject+THRuntimeEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+THRuntimeEx.m"; sourceTree = "<group>"; };
+		975443C01D2DE29C0021B98A /* NSString+THEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+THEx.h"; sourceTree = "<group>"; };
+		975443C11D2DE29C0021B98A /* NSString+THEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+THEx.m"; sourceTree = "<group>"; };
+		975443C21D2DE29C0021B98A /* UITableViewCell+THEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+THEx.h"; sourceTree = "<group>"; };
+		975443C31D2DE29C0021B98A /* UITableViewCell+THEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+THEx.m"; sourceTree = "<group>"; };
+		975443C41D2DE29C0021B98A /* UIView+THEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THEx.h"; sourceTree = "<group>"; };
+		975443C51D2DE29C0021B98A /* UIView+THEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THEx.m"; sourceTree = "<group>"; };
 		97C3AD461D2D35D00010D724 /* THAutoLoadSubView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THAutoLoadSubView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C3AD4A1D2D35D00010D724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97C3AD4C1D2D35D00010D724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,16 +39,8 @@
 		97C3AD551D2D35D00010D724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C3AD581D2D35D00010D724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C3AD5A1D2D35D00010D724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97C3AD611D2D36420010D724 /* NSObject+THRuntimeEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+THRuntimeEx.h"; sourceTree = "<group>"; };
-		97C3AD621D2D36420010D724 /* NSObject+THRuntimeEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+THRuntimeEx.m"; sourceTree = "<group>"; };
-		97C3AD631D2D36420010D724 /* UIView+THEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THEx.h"; sourceTree = "<group>"; };
-		97C3AD641D2D36420010D724 /* UIView+THEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THEx.m"; sourceTree = "<group>"; };
-		97C3AD671D2D36A80010D724 /* NSString+THEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+THEx.h"; sourceTree = "<group>"; };
-		97C3AD681D2D36A80010D724 /* NSString+THEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+THEx.m"; sourceTree = "<group>"; };
 		97C3AD6A1D2D3AA20010D724 /* THDemoView_auto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDemoView_auto.h; sourceTree = "<group>"; };
 		97C3AD6B1D2D3AA20010D724 /* THDemoView_auto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDemoView_auto.m; sourceTree = "<group>"; };
-		97C3AD6D1D2D424B0010D724 /* UITableViewCell+THEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+THEx.h"; sourceTree = "<group>"; };
-		97C3AD6E1D2D424B0010D724 /* UITableViewCell+THEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+THEx.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +54,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		975443BC1D2DE29C0021B98A /* THAutoLoadSubView */ = {
+			isa = PBXGroup;
+			children = (
+				975443BD1D2DE29C0021B98A /* THAutoLoadSubViewEx */,
+			);
+			path = THAutoLoadSubView;
+			sourceTree = "<group>";
+		};
+		975443BD1D2DE29C0021B98A /* THAutoLoadSubViewEx */ = {
+			isa = PBXGroup;
+			children = (
+				975443BE1D2DE29C0021B98A /* NSObject+THRuntimeEx.h */,
+				975443BF1D2DE29C0021B98A /* NSObject+THRuntimeEx.m */,
+				975443C01D2DE29C0021B98A /* NSString+THEx.h */,
+				975443C11D2DE29C0021B98A /* NSString+THEx.m */,
+				975443C21D2DE29C0021B98A /* UITableViewCell+THEx.h */,
+				975443C31D2DE29C0021B98A /* UITableViewCell+THEx.m */,
+				975443C41D2DE29C0021B98A /* UIView+THEx.h */,
+				975443C51D2DE29C0021B98A /* UIView+THEx.m */,
+			);
+			path = THAutoLoadSubViewEx;
+			sourceTree = "<group>";
+		};
 		97C3AD3D1D2D35D00010D724 = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +96,7 @@
 		97C3AD481D2D35D00010D724 /* THAutoLoadSubView */ = {
 			isa = PBXGroup;
 			children = (
-				97C3AD601D2D35D70010D724 /* THAutoLoadSubViewEx */,
+				975443BC1D2DE29C0021B98A /* THAutoLoadSubView */,
 				97C3AD4C1D2D35D00010D724 /* AppDelegate.h */,
 				97C3AD4D1D2D35D00010D724 /* AppDelegate.m */,
 				97C3AD4F1D2D35D00010D724 /* ViewController.h */,
@@ -95,21 +118,6 @@
 				97C3AD4A1D2D35D00010D724 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		97C3AD601D2D35D70010D724 /* THAutoLoadSubViewEx */ = {
-			isa = PBXGroup;
-			children = (
-				97C3AD611D2D36420010D724 /* NSObject+THRuntimeEx.h */,
-				97C3AD621D2D36420010D724 /* NSObject+THRuntimeEx.m */,
-				97C3AD671D2D36A80010D724 /* NSString+THEx.h */,
-				97C3AD681D2D36A80010D724 /* NSString+THEx.m */,
-				97C3AD631D2D36420010D724 /* UIView+THEx.h */,
-				97C3AD641D2D36420010D724 /* UIView+THEx.m */,
-				97C3AD6D1D2D424B0010D724 /* UITableViewCell+THEx.h */,
-				97C3AD6E1D2D424B0010D724 /* UITableViewCell+THEx.m */,
-			);
-			path = THAutoLoadSubViewEx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,13 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975443C61D2DE29C0021B98A /* NSObject+THRuntimeEx.m in Sources */,
 				97C3AD511D2D35D00010D724 /* ViewController.m in Sources */,
-				97C3AD651D2D36420010D724 /* NSObject+THRuntimeEx.m in Sources */,
 				97C3AD6C1D2D3AA20010D724 /* THDemoView_auto.m in Sources */,
 				97C3AD4E1D2D35D00010D724 /* AppDelegate.m in Sources */,
-				97C3AD661D2D36420010D724 /* UIView+THEx.m in Sources */,
-				97C3AD691D2D36A80010D724 /* NSString+THEx.m in Sources */,
-				97C3AD6F1D2D424B0010D724 /* UITableViewCell+THEx.m in Sources */,
+				975443C81D2DE29C0021B98A /* UITableViewCell+THEx.m in Sources */,
+				975443C91D2DE29C0021B98A /* UIView+THEx.m in Sources */,
+				975443C71D2DE29C0021B98A /* NSString+THEx.m in Sources */,
 				97C3AD4B1D2D35D00010D724 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +347,7 @@
 				97C3AD5F1D2D35D00010D724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
